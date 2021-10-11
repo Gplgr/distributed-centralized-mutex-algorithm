@@ -1,4 +1,4 @@
-# distributed-centralized-mutex-algorithm
+# Distributed Mutual Exclusion Centralized Algorithm
 
 A simple multiprocessed system made in Python consisting in a process with multiple threads that creates
 and receives data from another processes through sockets to coordinate mutual exclusion access for writing
