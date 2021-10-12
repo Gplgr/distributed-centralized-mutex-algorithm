@@ -3,7 +3,7 @@ import sys
 def temporalidade(linhas):
     temporalidade = True
     for i in range(len(linhas)-1):
-        if linhas[i][1] >= linhas[i+1][1]:
+        if linhas[i][1] > linhas[i+1][1]:
             temporalidade = False
 
     if temporalidade:
