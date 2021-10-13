@@ -1,6 +1,6 @@
-# Distributed Mutual Exclusion Centralized Algorithm
+# MEDS
 
-A simple multiprocessed system made in Python consisting in a process with multiple threads that creates
+Centralized Mutual Exclusion Algorithm for a Local Distributed System (MEDS for short) is a simple multiprocessed system made in Python consisting in a process with multiple threads that creates
 and receives data from another processes through sockets to coordinate mutual exclusion access for writing
 on a single text file.
 
